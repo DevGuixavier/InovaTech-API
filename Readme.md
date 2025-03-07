@@ -4,6 +4,15 @@ Esta é a API do laboratório de criação de APIs da InovaTech. A API é constr
 
 ## Estrutura do Projeto
 
+O projeto está organizado da seguinte forma:
+
+- `app.py`: Arquivo principal da aplicação Flask.
+- `docker-compose.yml`: Arquivo de configuração do Docker Compose.
+- `Dockerfile`: Arquivo de configuração do Docker.
+- `Readme.md`: Documentação do projeto.
+- `requirements.txt`: Lista de dependências do projeto.
+- `static/`: Diretório contendo arquivos estáticos, incluindo a documentação Swagger.
+
 ## Configuração do Ambiente
 
 ### Requisitos
