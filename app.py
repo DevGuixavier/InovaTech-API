@@ -5,7 +5,7 @@ from flask_jwt_extended import JWTManager, create_access_token, jwt_required
 app = Flask(__name__)
 
 # Configuração do JWT
-app.config['JWT_SECRET_KEY'] = 'A8!v3*G@8s2oP#Zx4Lm%Tq5Bn&UeZy2W' 
+app.config['JWT_SECRET_KEY'] = 'yoursecretkey' 
 jwt = JWTManager(app)
 
 ### Swagger UI ###
